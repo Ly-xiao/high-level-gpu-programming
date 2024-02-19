@@ -1,0 +1,85 @@
+
+------------------------------------------------------------------------ EasyBuild managed systemwide software ------------------------------------------------------------------------
+   ARMForge/22.0.1    Vampir/10.2.1    (D)    lumi-tools/23.04 ([1;35mS[0m)        lumi-vnc/20230110      lumio-ext-tools/1.0.0
+   Vampir/10.0.0      lumi-tools/23.03 ([1;35mS[0m)    lumi-tools/23.11 ([1;35mS[0m,[1;33mL[0m,D)    lumi-workspaces/0.1    lumio/1.0.0
+
+--------------------------------------------------------------------------------- HPE-Cray PE modules ---------------------------------------------------------------------------------
+   PrgEnv-amd/8.3.3                       cray-ccdb/4.12.13                    cray-mpich-abi/8.1.27                                     craypkg-gen/1.3.25
+   PrgEnv-amd/8.4.0      (D)              cray-ccdb/5.0.1             (D)      cray-mpich/8.1.27             ([1;33mL[0m,8.1.18:8.1.23:8.1.25)    craypkg-gen/1.3.28
+   PrgEnv-aocc/8.3.3                      cray-cti/2.15.13                     cray-mpixlate/1.0.0.6                                     craypkg-gen/1.3.30     (D)
+   PrgEnv-aocc/8.4.0     (D)              cray-cti/2.15.14                     cray-mpixlate/1.0.1.10                                    gcc-mixed/11.2.0
+   PrgEnv-cray-amd/8.3.3                  cray-cti/2.16.0                      cray-mpixlate/1.0.2           (D)                         gcc-mixed/12.2.0       (D)
+   PrgEnv-cray-amd/8.4.0 (D)              cray-cti/2.17.1                      cray-mrnet/5.0.4                                          gcc/10.3.0
+   PrgEnv-cray/8.3.3                      cray-cti/2.17.2                      cray-mrnet/5.1.1              (D)                         gcc/11.2.0
+   PrgEnv-cray/8.4.0     ([1;33mL[0m,D)            cray-cti/2.18.1             (D)      cray-openshmemx/11.5.6                                    gcc/12.2.0             (D)
+   PrgEnv-gnu-amd/8.3.3                   cray-dsmml/0.2.2            ([1;33mL[0m)      cray-openshmemx/11.5.7                                    gdb4hpc/4.14.2
+   PrgEnv-gnu-amd/8.4.0  (D)              cray-dyninst/12.1.1                  cray-openshmemx/11.5.8                                    gdb4hpc/4.14.6
+   PrgEnv-gnu/8.3.3                       cray-dyninst/12.3.0         (D)      cray-openshmemx/11.6.1        (D)                         gdb4hpc/4.14.7
+   PrgEnv-gnu/8.4.0      (D)              cray-fftw/3.3.8.13                   cray-pals/1.2.0                                           gdb4hpc/4.15.1         (D)
+   amd-mixed/5.2.3                        cray-fftw/3.3.10.1                   cray-pals/1.2.5                                           iobuf/2.0.10
+   amd/5.2.3             (5.0.2:5.2.0)    cray-fftw/3.3.10.3                   cray-pals/1.2.11                                          papi/6.0.0.15
+   aocc-mixed/3.2.0                       cray-fftw/3.3.10.5          (D)      cray-pals/1.2.12              (D)                         papi/6.0.0.17
+   aocc/3.2.0                             cray-hdf5-parallel/1.12.1.5          cray-parallel-netcdf/1.12.2.5                             papi/7.0.0.1
+   atp/3.14.13                            cray-hdf5-parallel/1.12.2.1          cray-parallel-netcdf/1.12.3.1                             papi/7.0.1.1           (D)
+   atp/3.14.16                            cray-hdf5-parallel/1.12.2.3          cray-parallel-netcdf/1.12.3.3                             perftools-base/22.06.0
+   atp/3.14.18                            cray-hdf5-parallel/1.12.2.7 (D)      cray-parallel-netcdf/1.12.3.7 (D)                         perftools-base/22.12.0
+   atp/3.15.1            (D)              cray-hdf5/1.12.1.5                   cray-pmi-lib/6.0.17                                       perftools-base/23.03.0
+   cce-mixed/14.0.2                       cray-hdf5/1.12.2.1                   cray-pmi/6.0.17                                           perftools-base/23.09.0 ([1;33mL[0m,D)
+   cce-mixed/15.0.0                       cray-hdf5/1.12.2.3                   cray-pmi/6.1.3                                            perftools-lite-events
+   cce-mixed/15.0.1                       cray-hdf5/1.12.2.7          (D)      cray-pmi/6.1.8                                            perftools-lite-gpu
+   cce-mixed/16.0.1      (D)              cray-libpals/1.2.0                   cray-pmi/6.1.10                                           perftools-lite-hbm
+   cce/14.0.2                             cray-libpals/1.2.5                   cray-pmi/6.1.12               (D)                         perftools-lite-loops
+   cce/15.0.0                             cray-libpals/1.2.11                  cray-python/3.9.12.1                                      perftools-lite
+   cce/15.0.1                             cray-libpals/1.2.12         (D)      cray-python/3.9.13.1                                      perftools-preload
+   cce/16.0.1            ([1;33mL[0m,D)            cray-libsci/21.08.1.2                cray-python/3.10.10           (D)                         perftools
+   cpe/22.08                              cray-libsci/22.08.1.1                cray-stat/4.11.12                                         rocm/5.2.3             (D:5.0.2:5.2.0)
+   cpe/22.12                              cray-libsci/22.12.1.1                cray-stat/4.11.13                                         sanitizers4hpc/1.0.1
+   cpe/23.03                              cray-libsci/23.02.1.1                cray-stat/4.12.1              (D)                         sanitizers4hpc/1.0.4
+   cpe/23.09             (D)              cray-libsci/23.09.1.1       ([1;33mL[0m,D)    craype/2.7.17                                             sanitizers4hpc/1.1.1   (D)
+   cray-R/4.1.3.1                         cray-libsci_acc/22.08.1.1            craype/2.7.19                                             valgrind4hpc/2.12.10
+   cray-R/4.2.1.1                         cray-libsci_acc/22.12.1.1            craype/2.7.20                                             valgrind4hpc/2.12.11
+   cray-R/4.2.1.2        (D)              cray-libsci_acc/23.09.1.1   (D)      craype/2.7.23                 ([1;33mL[0m,D)                       valgrind4hpc/2.13.1    (D)
+
+----------------------------------------------------------------------- /opt/cray/pe/lmod/lmod/modulefiles/Core -----------------------------------------------------------------------
+   lmod    settarg
+
+----------------------------------------------------------------------------- HPE-Cray PE target modules ------------------------------------------------------------------------------
+   craype-accel-amd-gfx908    craype-accel-nvidia70    craype-hugepages16M     craype-hugepages2M      craype-hugepages64M        craype-network-ucx    craype-x86-rome    ([1;33mL[0m)
+   craype-accel-amd-gfx90a    craype-accel-nvidia80    craype-hugepages1G      craype-hugepages32M     craype-hugepages8M         craype-x86-genoa      craype-x86-spr-hbm
+   craype-accel-amd-gfx940    craype-arm-grace         craype-hugepages256M    craype-hugepages4M      craype-network-none        craype-x86-milan-x    craype-x86-spr
+   craype-accel-host          craype-hugepages128M     craype-hugepages2G      craype-hugepages512M    craype-network-ofi  ([1;33mL[0m)    craype-x86-milan      craype-x86-trento
+
+----------------------------------------------------------------------------------- Software stacks -----------------------------------------------------------------------------------
+   CrayEnv ([1;35mS[0m)    LUMI/22.08 ([1;35mS[0m,D)    LUMI/22.12 ([1;35mS[0m)    LUMI/23.03 ([1;35mS[0m)    LUMI/23.09 ([1;35mS[0m)    spack/22.08    spack/22.08-2    spack/23.03    spack/23.03-2    spack/23.09 (D)
+
+--------------------------------------------------------------------------- Modify the module display style ---------------------------------------------------------------------------
+   ModuleColour/off ([1;35mS[0m)      ModuleExtensions/hide ([1;35mS[0m)      ModuleLabel/label       ([1;35mS[0m,[1;33mL[0m,D)    ModuleLabel/system   ([1;35mS[0m)    ModuleStyle/default
+   ModuleColour/on  ([1;35mS[0m,D)    ModuleExtensions/show ([1;35mS[0m,D)    ModuleLabel/PEhierarchy ([1;35mS[0m)        ModulePowerUser/LUMI ([1;35mS[0m)    ModuleStyle/reset   (D)
+
+-------------------------------------------------------------------------------- System initialisation --------------------------------------------------------------------------------
+   init-lumi/0.2 ([1;35mS[0m,[1;33mL[0m)
+
+------------------------------------------------------------------------------- Non-PE HPE-Cray modules -------------------------------------------------------------------------------
+   chapel/1.28.0                                                                          libfabric/1.15.2.0                    ([1;33mL[0m)
+   cray-lustre-client-ofed/2.15.0.4_rc2_cray_179_gb09cfbe-2.4_17.8__gb09cfbe6c5.shasta    rocm/5.2.3                            (5.0.2:5.2.0)
+   dvs/2.15_4.4.234-2.4_49.1__gfd0d6e85                                                   xpmem/2.5.2-2.4_3.50__gd0f7936.shasta ([1;33mL[0m)
+
+------------------------------------------------------ This is a list of module extensions "module --nx avail ..." to not show.
+ ------------------------------------------------------
+    [1;34mrclone[0m (E)     [1;34mrestic[0m (E)     [1;34ms3cmd[0m (E)
+
+These extensions cannot be loaded directly, use "module spider extension_name" for more information.
+
+  Where:
+   [1;33mL[0m:        Module is loaded
+   [1;35mS[0m:        Module is Sticky, requires --force to unload or purge
+   Aliases:  Aliases exist: foo/1.2.3 (1.2) means that "module load foo/1.2" will load foo/1.2.3
+   D:        Default Module
+   E:        Extension that is provided by another module
+
+Additional ways to search for software:
+* Use "module spider" to find all possible modules and extensions.
+* Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
+See the LUMI documentation at https://docs.lumi-supercomputer.eu/runjobs/lumi_env/Lmod_modules/ for more information on searching modules.
+If then you still miss software, contact LUMI User Support via https://lumi-supercomputer.eu/user-support/need-help/.
+

@@ -1,0 +1,4 @@
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  hipGetDeviceCount(&hipDevCount) error( hipErrorNoDevice): no ROCm-capable device is detected /pfs/lustrep1/scratch/project_462000456/longying/high-level-gpu-programming/exercises/kokkos/01-hello/../kokkos/core/src/HIP/Kokkos_HIP_Instance.cpp:428
+srun: error: nid002444: task 0: Aborted (core dumped)
+srun: launch/slurm: _step_signal: Terminating StepId=6127943.0
